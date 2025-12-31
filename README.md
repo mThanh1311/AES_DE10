@@ -42,7 +42,7 @@ The figure below illustrates the overall **SoPC architecture** implemented on th
 - On-chip memory stores program and data
 - JTAG UART enables communication with the host PC
 
-![SoPC Architecture](references/sopc_arch.png)
+![SoPC Architecture](references/system.png)
 
 ---
 
@@ -70,23 +70,26 @@ The design allows easy parameterization for different key sizes.
 
 The figure below shows the **AES encryption process**, including key expansion and round-based transformations.
 
-![AES Encryption Workflow](references/aes_flow.png)
+![SoPC Architecture](references/workflow.png)
 
 ---
 
 ## 🏗️ Project Structure
 
 The following folders are included in this repository:
-
+```
 ├── embeddedC/ # NIOS II software (C code, drivers, tests)
+|
 ├── rtl/ # AES RTL source code (Verilog/VHDL)
+|
 ├── system/ # Platform Designer (Qsys) system files
+|
 ├── tb/ # Testbench and simulation files
+|
 ├── references/ # Architecture & algorithm reference images
-│ ├── sopc_arch.png # SoPC architecture diagram
-│ └── aes_flow.png # AES encryption workflow
+│ 
 ├── README.md
-
+```
 
 
 ###  Folder Description
