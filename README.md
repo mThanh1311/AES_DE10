@@ -74,7 +74,7 @@ The figure below shows the **AES encryption process**, including key expansion a
 
 ---
 
-## 🏗️ Project Structure
+##  Project Structure
 
 The following folders are included in this repository:
 ```
