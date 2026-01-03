@@ -142,11 +142,11 @@ The following folders are included in this repository:
 
 ##  Project Status
 
-- [ ] AES RTL implementation
-- [ ] Avalon-MM interface
-- [ ] NIOS II software driver
-- [ ] Functional verification
-- [ ] Performance evaluation
+- [X] AES RTL implementation
+- [X] Avalon-MM interface
+- [X] NIOS II software driver
+- [X] Functional verification
+- [X] Performance evaluation
 
 ---
 
